@@ -16,23 +16,19 @@ provider "vsphere" {
 
 variable "vsphere_user" {
   type = string
-  default = ""
 }
 
 variable "vsphere_password" {
   type = string
-  default = ""
   sensitive = true
 }
 
 variable "vsphere_server" {
   type = string
-  default = ""
 }
 
 variable "vm_name" {
   type = string
-  default = ""
 }
 
 variable "num_cpus" {
